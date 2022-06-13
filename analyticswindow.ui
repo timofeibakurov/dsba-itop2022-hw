@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AnalyticsWindow</class>
+ <widget class="QWidget" name="AnalyticsWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>686</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="returnButton">
+       <property name="text">
+        <string>Return</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QGridLayout" name="inputLayOut_1">
+         <item row="0" column="1">
+          <widget class="QComboBox" name="chooseColumn">
+           <item>
+            <property name="text">
+             <string>Warehouse_block</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Mode_of_Shipment</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Customer_care_calls</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Customer_rating</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Cost_of_the_Product</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Prior_purchases</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Product_importance</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Gender</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Discount_offered</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Weight_in_gms</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Reached.on.Time_Y.N</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QComboBox" name="chooseChart">
+           <item>
+            <property name="text">
+             <string>Pie chart</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Bar chart</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Scatter chart</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Spline chart</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="chartLayOut_1"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
